@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <form id="registrationForm" onsubmit="validateForm(event)">
+    <div class="reg-form"></div>
+    <h2>User Registration</h2>
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+    </div>
+    <div class="form-group">
+      <label for="mobileNumber">Mobile Number:</label>
+      <input type="text" id="mobileNumber" name="mobileNumber" required>
+    </div>
+    <div class="form-group">
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" required>
+    </div>
+    <!-- <div class="form-group">
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+    </div> -->
+    <div class="form-group">
+      <label for="userId">Username:</label>
+      <input type="text" id="userId" name="userId" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit" value="login">Register</button>
+    </div>
+  </form>
+
+  <script src="reg.js"></script>
+</body>
+</html>
